@@ -6,9 +6,11 @@
   <img src="https://komarev.com/ghpvc/?username=y-shinee&style=flat-square&color=42b883" />
   <img src="https://img.shields.io/github/followers/y-shinee?style=flat-square&color=42b883" />
   <img src="https://img.shields.io/badge/focus-frontend-42b883?style=flat-square" />
+  <img src="https://img.shields.io/badge/AI--driven-opencode-42b883?style=flat-square" />
 </p>
 
-> Фронтенд-разработчик. Работаю с продуктовым фронтом на **Vue**, качаю пет-проекты на **React + TypeScript + Python** — от AI-ассистентов до финтех-платформы на данных MOEX.
+> Фронтенд-разработчик: продуктовый **Vue** днем, **React + TS + Python** пет-проекты ночью.
+> Умею вести небольшую команду, призёр хакатона, финтех-флагман в проде. Работаю с AI-агентами как с джунами: чёткая задача → проверка тестами.
 
 ---
 
@@ -17,12 +19,63 @@
 **🏢 Лига цифровой экономики — Frontend-разработчик (Vue)**
 
 - Разработка и поддержка продуктового фронта: фичи, багфиксы, рефакторинг
-- Работа с общим UI-kit, переиспользуемыми компонентами и формами
+- Общий UI-kit, переиспользуемые компоненты и сложные формы
 - Интеграция с backend по OpenAPI, код-ревью, unit-тесты
 
 *По NDA — без деталей проектов.*
 
 `Vue 2.7 / Vue 3` · `TypeScript` · `Vuex` · `Jest` · `Yarn / npm`
+
+---
+
+### 🔥 Flagship — FondBond 👉 [fondbond.tech](https://fondbond.tech)
+
+**ФондБонд — собери портфель из облигаций без Excel и брокерского сленга.**
+Скринер бумаг MOEX, конструктор портфеля прямо на лендинге, календарь выплат и AI-ребалансировка с честным планом: что продать, что докупить, сколько придёт рублями.
+
+Репозитории приватные, поэтому коротко:
+
+| Проект | Что это | Главное |
+|---|---|---|
+| **FinanceMOEX_Frontend** | Лендинг + скринер + портфели + оплата | `React` `TypeScript` `TanStack Query` |
+| **FinanceMOEX_Backend** | API портфелей, данные MOEX ISS, платежи ЮKassa | `Python` `FastAPI` `Postgres` |
+| **FondBond_Dashboard** | Внутренний дашборд аналитики | `React` `TypeScript` `Recharts` |
+
+---
+
+### 🤖 Как я использую AI
+
+Не «вайб-кодинг», а управляемая разработка:
+
+- **OpenCode + AI-агенты** в ежедневной работе: декомпозиция задач, генерация кода и тестов, ревью
+- **Docs-as-context:** пишу RAG-friendly доки (`AGENTS.md`, PRD, ADR), чтобы агент не фантазировал
+- **Проверка, а не вера:** любой AI-код гоняю через `Jest / Vitest / Playwright`, правки — только после зелёных тестов
+
+Стек: `OpenCode` · `Muse Spark` · `GitHub Copilot` · `Jest` `Vitest` `Playwright`
+
+---
+
+### 📦 Лучшее
+
+**🤖 AI Assistant — fullstack**
+Мини-экосистема ассистента: чат + API + отдельный AI-сервис. Учусь строить связку `TS-фронт + Python-бэк + AI`.
+
+[ai-assistent-frontend](https://github.com/y-shinee/ai-assistent-frontend) · [ai-assistent-api](https://github.com/y-shinee/ai-assistent-api) · [ai-assistent-ai-service](https://github.com/y-shinee/ai-assistent-ai-service)
+
+**🥉 [travel-planner](https://github.com/y-shinee/travel-planner)** — Changallenge CUP Russia 2025, **3 место по «Аналитике данных»**. Планировщик путешествий с алгоритмами прогнозирования. `PHP`
+
+**👥 [booking](https://github.com/y-shinee/booking)** — руководил командой из **3 разработчиков**: лид + фронт. Сервис бронирования. `JavaScript`
+
+**🏢 [social](https://github.com/y-shinee/social)** — практика в **Неофлекс (Нижний Новгород)**: соцсеть — лента, профили, посты. `TypeScript`
+
+<details>
+<summary><b>Ещё проекты и задачки</b></summary>
+
+[weather](https://github.com/y-shinee/weather) · [todo-list](https://github.com/y-shinee/todo-list) · [chat](https://github.com/y-shinee/chat) · [react-practice](https://github.com/y-shinee/react-practice) · [react-practice_2](https://github.com/y-shinee/react-practice_2) · [league-project](https://github.com/y-shinee/league-project)
+
+[league-homework-js-tasks](https://github.com/y-shinee/league-homework-js-tasks) · [league-homework-ts-task](https://github.com/y-shinee/league-homework-ts-task) · [league-homework-task-service](https://github.com/y-shinee/league-homework-task-service) · [league-homework-js-tasks-queue](https://github.com/y-shinee/league-homework-js-tasks-queue) · [league-homework-adaptive-layout](https://github.com/y-shinee/league-homework-adaptive-layout)
+
+</details>
 
 ---
 
@@ -32,86 +85,15 @@
   <img src="https://skillicons.dev/icons?i=vue,ts,js,react,vite,tailwind,python,fastapi,postgres,supabase,jest,vitest,docker,git,yarn,npm&theme=dark" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-</p>
-
 ---
 
-### 🔥 Flagship — FondBond 👉 [fondbond.tech](https://fondbond.tech)
-
-**ФондБонд — собери портфель из облигаций без Excel и брокерского сленга.**
-Скринер бумаг MOEX, конструктор портфеля прямо на лендинге, календарь выплат и AI-ребалансировка с честным планом обменов: что продать, что докупить, сколько придёт рублями.
-
-Репозитории приватные (`private`), поэтому коротко:
-
-| Проект | Что это | Главное из стека |
-|---|---|---|
-| **FinanceMOEX_Frontend** | Лендинг + скринер + портфели + оплата | `React` `TypeScript` `TanStack Query` |
-| **FinanceMOEX_Backend** | API портфелей, данные MOEX ISS, платежи ЮKassa | `Python` `FastAPI` `Postgres` |
-| **FondBond_Dashboard** | Внутренний дашборд аналитики | `React` `TypeScript` `Recharts` |
-
-> Идея: «доходность 14.3%» → «сколько рублей придёт и когда».
-
----
-
-### 📦 Публичные проекты
-
-**🤖 AI Assistant — fullstack пет-проект**
-
-Мини-экосистема AI-ассистента: чат, API-слой и отдельный AI-сервис. Пробую связку `TS-фронт + Python-бэк + AI`.
-
-| Репозиторий | Что это |
-|---|---|
-| [ai-assistent-frontend](https://github.com/y-shinee/ai-assistent-frontend) | Фронт чата — `TypeScript` |
-| [ai-assistent-api](https://github.com/y-shinee/ai-assistent-api) | API-слой — `Python` |
-| [ai-assistent-ai-service](https://github.com/y-shinee/ai-assistent-ai-service) | AI-логика — `Python` |
-
-**🌐 Frontend**
-| Репозиторий | Стек |
-|---|---|
-| [social](https://github.com/y-shinee/social) | Практика в Неофлекс (Нижний Новгород) — соцсеть: лента, профили, посты — `TypeScript` |
-| [booking](https://github.com/y-shinee/booking) | Руководил командой из 3 разработчиков: лид + фронт — сервис бронирования — `JavaScript` |
-| [travel-planner](https://github.com/y-shinee/travel-planner) | 🥉 Changallenge CUP Russia 2025 — 3 место по «Аналитике данных» (всерос) — планировщик путешествий с алгоритмами прогнозирования — `PHP` |
-| [weather](https://github.com/y-shinee/weather) | `JavaScript` |
-| [todo-list](https://github.com/y-shinee/todo-list) | `JavaScript` |
-| [chat](https://github.com/y-shinee/chat) | — |
-| [react-practice](https://github.com/y-shinee/react-practice) / [react-practice_2](https://github.com/y-shinee/react-practice_2) | `JavaScript` |
-| [league-project](https://github.com/y-shinee/league-project) | `TypeScript` |
-
-**📚 Задачки**
-[league-homework-js-tasks](https://github.com/y-shinee/league-homework-js-tasks) · [league-homework-ts-task](https://github.com/y-shinee/league-homework-ts-task) · [league-homework-task-service](https://github.com/y-shinee/league-homework-task-service) · [league-homework-js-tasks-queue](https://github.com/y-shinee/league-homework-js-tasks-queue) · [league-homework-adaptive-layout](https://github.com/y-shinee/league-homework-adaptive-layout)
-
----
-
-### 📊 Статистика
-
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=y-shinee&show_icons=true&theme=vue-dark&hide_border=true&count_private=true&locale=ru" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=y-shinee&layout=compact&theme=vue-dark&hide_border=true&langs_count=6" />
-</p>
-
-<p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=y-shinee&theme=vue&hide_border=true&area=true" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=y-shinee&theme=onedark&no-frame=true&no-bg=true&row=1&column=6" />
-</p>
-
----
-
-### 📫 Контакты
+### 📫 Контакты — возьмите меня в команду 😉
 
 <p align="center">
   <a href="https://github.com/y-shinee"><img src="https://img.shields.io/badge/GitHub-y--shinee-181717?style=for-the-badge&logo=github" /></a>
   <a href="https://t.me/Yakov255"><img src="https://img.shields.io/badge/Telegram-@Yakov255-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" /></a>
 </p>
 
-> Открыт к интересным фронтенд-задачам и коллаборациям. Про FondBond и AI-проекты расскажу подробнее 😉
+> Ищу команду, где важны чистый фронт, скорость и продукт. Про FondBond и AI-подход расскажу на созвоне — покажу прод и код.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:42b883,100:0f172a&height=120&section=footer" />
