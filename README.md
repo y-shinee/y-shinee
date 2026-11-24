@@ -16,7 +16,11 @@
 
 **🏢 Лига цифровой экономики — Frontend-разработчик (Vue)**
 
-*По NDA — только стек.*
+- Разработка и поддержка продуктового фронта: фичи, багфиксы, рефакторинг
+- Работа с общим UI-kit, переиспользуемыми компонентами и формами
+- Интеграция с backend по OpenAPI, код-ревью, unit-тесты
+
+*По NDA — без деталей проектов.*
 
 `Vue 2.7 / Vue 3` · `TypeScript` · `Vuex` · `Jest` · `Yarn / npm`
 
@@ -38,34 +42,40 @@
 
 ---
 
-### 🔒 Flagship — FondBond Ecosystem `private`
+### 🔥 Flagship — FondBond 👉 [fondbond.tech](https://fondbond.tech)
 
-Финтех-платформа для частного инвестора на рынке облигаций MOEX. Репозитории приватные — поэтому кратко:
+**ФондБонд — собери портфель из облигаций без Excel и брокерского сленга.**
+Скринер бумаг MOEX, конструктор портфеля прямо на лендинге, календарь выплат и AI-ребалансировка с честным планом обменов: что продать, что докупить, сколько придёт рублями.
 
-| Проект | Что это | Стек |
+Репозитории приватные (`private`), поэтому коротко:
+
+| Проект | Что это | Главное из стека |
 |---|---|---|
-| **FinanceMOEX_Frontend** | Лендинг + скринер облигаций + конструктор портфеля + AI-ребалансировка + подписка | `React 18` `TS` `Vite` `Tailwind` `shadcn/ui` `TanStack Query` `Recharts` `Supabase` |
-| **FinanceMOEX_Backend** | API: портфели, облигации MOEX ISS (TQOB/TQCB), платежи, планировщик данных | `Python` `FastAPI` `Postgres` `MOEX ISS` `APScheduler` |
-| **FondBond_Dashboard** | Внутренний дашборд аналитики | `React` `Vite` `TS` `React Query` `Recharts` |
+| **FinanceMOEX_Frontend** | Лендинг + скринер + портфели + оплата | `React` `TypeScript` `TanStack Query` |
+| **FinanceMOEX_Backend** | API портфелей, данные MOEX ISS, платежи ЮKassa | `Python` `FastAPI` `Postgres` |
+| **FondBond_Dashboard** | Внутренний дашборд аналитики | `React` `TypeScript` `Recharts` |
 
-> Идея: перевести «язык брокера» на человеческий — «доходность 14.3%» → «сколько рублей придёт и когда».
+> Идея: «доходность 14.3%» → «сколько рублей придёт и когда».
 
 ---
 
 ### 📦 Публичные проекты
 
-**🤖 AI Assistant — fullstack**
-| Репозиторий | Стек |
+**🤖 AI Assistant — fullstack пет-проект**
+
+Мини-экосистема AI-ассистента: чат, API-слой и отдельный AI-сервис. Пробую связку `TS-фронт + Python-бэк + AI`.
+
+| Репозиторий | Что это |
 |---|---|
-| [ai-assistent-frontend](https://github.com/y-shinee/ai-assistent-frontend) | `TypeScript` |
-| [ai-assistent-api](https://github.com/y-shinee/ai-assistent-api) | `Python` |
-| [ai-assistent-ai-service](https://github.com/y-shinee/ai-assistent-ai-service) | `Python` |
+| [ai-assistent-frontend](https://github.com/y-shinee/ai-assistent-frontend) | Фронт чата — `TypeScript` |
+| [ai-assistent-api](https://github.com/y-shinee/ai-assistent-api) | API-слой — `Python` |
+| [ai-assistent-ai-service](https://github.com/y-shinee/ai-assistent-ai-service) | AI-логика — `Python` |
 
 **🌐 Frontend**
 | Репозиторий | Стек |
 |---|---|
-| [social](https://github.com/y-shinee/social) | Практика в Неофлекс (Нижний Новгород) — соцсеть — `TypeScript` |
-| [booking](https://github.com/y-shinee/booking) | `JavaScript` |
+| [social](https://github.com/y-shinee/social) | Практика в Неофлекс (Нижний Новгород) — соцсеть: лента, профили, посты — `TypeScript` |
+| [booking](https://github.com/y-shinee/booking) | Руководил командой из 3 разработчиков: лид + фронт — сервис бронирования — `JavaScript` |
 | [travel-planner](https://github.com/y-shinee/travel-planner) | 🥉 Changallenge CUP Russia 2025 — 3 место по «Аналитике данных» (всерос) — планировщик путешествий с алгоритмами прогнозирования — `PHP` |
 | [weather](https://github.com/y-shinee/weather) | `JavaScript` |
 | [todo-list](https://github.com/y-shinee/todo-list) | `JavaScript` |
@@ -99,7 +109,7 @@
 
 <p align="center">
   <a href="https://github.com/y-shinee"><img src="https://img.shields.io/badge/GitHub-y--shinee-181717?style=for-the-badge&logo=github" /></a>
-  <a href="https://t.me/Yakov255"><img src="https://img.shields.io/badge/Telegram-@you-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" /></a>
+  <a href="https://t.me/Yakov255"><img src="https://img.shields.io/badge/Telegram-@Yakov255-26A5E4?style=for-the-badge&logo=telegram&logoColor=white" /></a>
 </p>
 
 > Открыт к интересным фронтенд-задачам и коллаборациям. Про FondBond и AI-проекты расскажу подробнее 😉
